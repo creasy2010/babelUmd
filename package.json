@@ -1,0 +1,21 @@
+{
+  "name": "babelumd",
+  "version": "1.0.0",
+  "description": "将@babel/parser @babel/traverse @babel/core 打包为umd格式,共在线编辑器使用;",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
